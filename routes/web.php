@@ -15,3 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/login', function() {
+    return view('login');
+})->name('login');
+
+Route::post('/login_submit', function() {
+    return "Login";
+})->name('login_submit');
+

@@ -53,7 +53,7 @@
               </div>
             </div>
             <a class="sign" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
-            <a class="sign" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+            <a class="sign" href="{{ route('login') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a>
           </div>
         </div> <!-- /.navbar-collapse -->
       </div> <!-- /.container-fluid -->
